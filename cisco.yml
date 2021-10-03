@@ -2,6 +2,7 @@
 - hosts: routers
   become: yes
 
+
   tasks:
     - name: Create Loopback888
       cisco.ios.ios_interfaces:
